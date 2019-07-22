@@ -1,0 +1,5 @@
+[run]
+include = reading_list_api/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
