@@ -21,3 +21,15 @@ A good solution will
 * be production ready
 
 Please send us your solution or put it on a repository hosting service such as [GitHub](https://github.com), [GitLab](https://gitlab.com) or [Bitbucket](https://bitbucket.org) and don't forget to include a README file to tell us how to build and run the application :)
+
+
+## Deployments
+
+This app has been developed using Docker.
+
+To run locally use the local.yml file or to run a production configuration use the production.yml file. 
+
+Quick start locally: `docker-compose.yml -f local.yml up`
+Quick start production: `docker-compose.yml -f production.yml up`
+
+For more instructions on how to get started can be found here: https://cookiecutter-django.readthedocs.io/en/latest/deployment-with-docker.html#building-running-production-stack
